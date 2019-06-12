@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_DeClutter_1", "Wpf_DeClutter_1\Wpf_DeClutter_1.csproj", "{7034D10A-F1CA-482C-8DCE-B3AC13829178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7034D10A-F1CA-482C-8DCE-B3AC13829178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7034D10A-F1CA-482C-8DCE-B3AC13829178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7034D10A-F1CA-482C-8DCE-B3AC13829178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7034D10A-F1CA-482C-8DCE-B3AC13829178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {261F59E4-14D7-42CD-A0A3-B2101BF39BFB}
+	EndGlobalSection
+EndGlobal

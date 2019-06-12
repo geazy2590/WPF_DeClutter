@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item>
+    <pId>0</pId>
+    <pName>asd</pName>
+    <pCategory>asd</pCategory>
+    <pDesc>asd</pDesc>
+    <pContact>asd</pContact>
+    <pLocation>asd</pLocation>
+    <pImage>asd</pImage>
+    <pDate>asd</pDate>
+    <isDisabled>false</isDisabled>
+  </Item>
+  <Item>
+    <pId>1</pId>
+    <pName>asd</pName>
+    <pCategory>asd</pCategory>
+    <pDesc>asd</pDesc>
+    <pContact>asd</pContact>
+    <pLocation>asd</pLocation>
+    <pImage>asd</pImage>
+    <pDate>asd</pDate>
+    <isDisabled>false</isDisabled>
+  </Item>
+  <Item>
+    <pId>2</pId>
+    <pName>asd</pName>
+    <pCategory>asd</pCategory>
+    <pDesc>asd</pDesc>
+    <pContact>asd</pContact>
+    <pLocation>asd</pLocation>
+    <pImage>asd</pImage>
+    <pDate>asd</pDate>
+    <isDisabled>false</isDisabled>
+  </Item>
+</ArrayOfItem>

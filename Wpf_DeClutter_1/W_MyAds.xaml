@@ -1,0 +1,32 @@
+﻿<Window x:Class="Wpf_DeClutter_1.W_MyAds"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_DeClutter_1"
+        mc:Ignorable="d"
+        Title="DeClutter" Height="450" Width="800" x:Name="W_MyAds1" Loaded="W_MyAds1_Loaded">
+    <Grid Background="#FFFAFAFA">
+        <StackPanel Orientation="Vertical">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="My Advertisments" VerticalAlignment="Top" FontSize="16" Width="793.6" Height="36.28" Background="#FF263238" Foreground="White" Padding="10,7,10,0"/>
+            <TextBlock Text="* Please select the item and then click the button to Active/Deactivate your advertisment." Padding="10,5,10,10"/>
+        </StackPanel>
+        <ListBox Background="#FFFAFAFA" x:Name="Grd_items" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="10,58.491,15.424,10" MouseDoubleClick="gotoAd">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="{Binding pImagePath}" Stretch="None" Width="75" Height="100"/>
+                        <Label HorizontalAlignment="Center" Content="{Binding pName}"/>
+                        <Label HorizontalAlignment="Center" Content="{Binding pLocation}"/>
+                        <Button HorizontalAlignment="Center" Content="{Binding isDisabled}" Click="Btn_change_status" Background="#FF4F5B62" BorderBrush="#FF4F5B62" Foreground="White"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True" Orientation="Horizontal"  />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Grid>
+</Window>

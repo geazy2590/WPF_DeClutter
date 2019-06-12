@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ItemContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Items>
+		<Item>
+			<pId>1</pId>
+			<pName>IKEA Bed</pName>
+			<pCategory>Furniture</pCategory>
+			<pDesc>Used for 6 months, in good condition</pDesc>
+			<pContact>abc@gmail.com</pContact>
+			<pLocation>Heidelberg</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>26/01/2017</pDate>
+			<isDisabled>true</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+		<Item>
+			<pId>2</pId>
+			<pName>CA Jacket</pName>
+			<pCategory>Clothing</pCategory>
+			<pDesc>Used for 3 months, in good condition. XL 		 	size</pDesc>
+			<pContact>abdc@gmail.com</pContact>
+			<pLocation>Mannheim</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>27/01/2017</pDate>
+			<isDisabled>false</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+		<Item>
+			<pId>3</pId>
+			<pName>Beats Headphones</pName>
+			<pCategory>Electronics</pCategory>
+			<pDesc>Used for 10 months, in good condition</pDesc>
+			<pContact>abcd@gmail.com</pContact>
+			<pLocation>Sandhausen</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>20/01/2017</pDate>
+			<isDisabled>false</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+		<Item>
+			<pId>4</pId>
+			<pName>Dyson Blender</pName>
+			<pCategory>Kitchenware</pCategory>
+			<pDesc>Used for 2 months, in good condition</pDesc>
+			<pContact>abdec@gmail.com</pContact>
+			<pLocation>Wiesloch</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>26/02/2017</pDate>
+			<isDisabled>false</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+		<Item>
+			<pId>5</pId>
+			<pName>Wheelbarrow</pName>
+			<pCategory>Miscellaneous</pCategory>
+			<pDesc>Used for 12 months, in good condition</pDesc>
+			<pContact>abcde@gmail.com</pContact>
+			<pLocation>Heidelberg</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>20/01/2017</pDate>
+			<isDisabled>false</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+		<Item>
+			<pId>6</pId>
+			<pName>Dog Leash</pName>
+			<pCategory>Miscellaneous</pCategory>
+			<pDesc>Used for 6 months, in good condition</pDesc>
+			<pContact>abc@gmail.com</pContact>
+			<pLocation>Mannheim</pLocation>
+			<pImage>C:\Users\SAUPTIK\Pictures\Ikea_bed.jpg</pImage>
+			<pDate>29/01/2017</pDate>
+			<isDisabled>false</isDisabled>
+			<pCreatedBy>asda</pCreatedBy>
+		</Item>
+	</Items>
+</ItemContainer>
